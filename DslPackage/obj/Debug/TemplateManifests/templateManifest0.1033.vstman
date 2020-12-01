@@ -1,0 +1,32 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\1033\DCMLRACPGProyectoIPS</RelativePathOnDisk>
+    <TemplateFileName>CSharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{2cb8a4ca-db5f-440d-be6b-044064307e09}</TemplateID>
+        <Name Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="103" />
+        <Description Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="102" />
+        <Icon Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="201" />
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>DCMLRACPGProyectoIPS.DCMLRACPG_ProyIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>VisualBasic\1033\DCMLRACPGProyectoIPS</RelativePathOnDisk>
+    <TemplateFileName>VisualBasic.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{0b2f544c-03e8-4b86-9efb-7f6df5f3420f}</TemplateID>
+        <Name Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="103" />
+        <Description Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="102" />
+        <Icon Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="201" />
+        <ProjectType>VisualBasic</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>DCMLRACPGProyectoIPS.DCMLRACPG_ProyIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

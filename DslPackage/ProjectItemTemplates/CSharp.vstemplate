@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{2cb8a4ca-db5f-440d-be6b-044064307e09}</TemplateID>
+		<Name Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="103"/>
+		<Description Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="102"/>
+		<Icon Package="{864bdef2-a50a-4d37-a1d8-9f2398d80509}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>DCMLRACPGProyectoIPS.DCMLRACPG_ProyIPS</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.DCMLRACPG_ProyIPS">DCMLRACPG_ProyIPS.DCMLRACPG_ProyIPS</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.DCMLRACPG_ProyIPS.diagram">DCMLRACPG_ProyIPS.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
