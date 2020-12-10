@@ -10,6 +10,12 @@
             <elementListCompartment Id="3e1adf5f-d871-449a-87ee-536eb150163b" absoluteBounds="0.515, 0.9, 1.6366666716337206, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
           </nestedChildShapes>
         </microsoft.VisualStudio.Modeling.DslDesigner.ClassShape>
+        <microsoft.VisualStudio.Modeling.DslDesigner.ClassShape Id="34e7975b-c51e-4414-bdad-e761e154e636" absoluteBounds="0.5, 1.4293896484375, 1.6666666716337204, 1.5185953776041667">
+          <RootNodeMoniker Id="6d180bc6-4553-4b73-bac0-d6cdcc912a97" />
+          <nestedChildShapes>
+            <elementListCompartment Id="97c4fe4d-ffa5-417d-b04f-6ec2c5acec50" absoluteBounds="0.515, 1.8293896484375, 1.6366666716337206, 1.0185953776041665" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+          </nestedChildShapes>
+        </microsoft.VisualStudio.Modeling.DslDesigner.ClassShape>
       </nestedChildShapes>
     </microsoft.VisualStudio.Modeling.DslDesigner.DomainModelElements>
     <microsoft.VisualStudio.Modeling.DslDesigner.DiagramElements Id="10cdd7ec-3d41-40c4-8c72-5996a878305e" absoluteBounds="2.4166666716337204, 0, 19.192775160372257, 8.5">
@@ -20,6 +26,14 @@
             <elementListCompartment Id="4def6991-8735-4917-a6b6-0096d3fbd1f9" absoluteBounds="2.931666671633721, 0.90000000000000036, 2.3863664072751996, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
           </nestedChildShapes>
         </microsoft.VisualStudio.Modeling.DslDesigner.DiagramShape>
+        <microsoft.VisualStudio.Modeling.DslDesigner.CompartmentShapeShape Id="0e2bd1bd-a363-43ef-a4bc-d432f32c2a91" absoluteBounds="2.9166666716337204, 1.4293896484375, 1.6666666716337204, 1.2681689453125">
+          <RootNodeMoniker Id="1500e86e-e4e9-4b6c-9d99-55e3ee1efbef" />
+          <nestedChildShapes>
+            <elementListCompartment Id="1f8ccecb-be39-44dd-9388-c52620cf8655" absoluteBounds="2.9316666716337205, 1.8293896484375, 1.6366666716337206, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+            <elementListCompartment Id="0b19c865-2019-4e50-8333-f4619925809e" absoluteBounds="2.9316666716337205, 2.088779296875, 1.6366666716337206, 0.2493896484375" name="Decorators" titleTextColor="Black" itemTextColor="Black" />
+            <elementListCompartment Id="15f3615e-2885-4516-af4d-75b1867a046d" absoluteBounds="2.9316666716337205, 2.3481689453125, 1.6366666716337206, 0.2493896484375" name="Compartments" titleTextColor="Black" itemTextColor="Black" />
+          </nestedChildShapes>
+        </microsoft.VisualStudio.Modeling.DslDesigner.CompartmentShapeShape>
       </nestedChildShapes>
     </microsoft.VisualStudio.Modeling.DslDesigner.DiagramElements>
   </nestedChildShapes>
@@ -33,6 +47,11 @@
                 <DomainClassMoniker Name="/UPM_IPS.DCMLRACPGProyectoIPS/MyDSLModel" />
               </Class>
             </RootNode>
+            <RootNode Id="6d180bc6-4553-4b73-bac0-d6cdcc912a97">
+              <Class>
+                <DomainClassMoniker Name="/UPM_IPS.DCMLRACPGProyectoIPS/Atributo" />
+              </Class>
+            </RootNode>
           </Roots>
         </DslDesignerDiagramTree>
       </DomainModelElementTree>
@@ -42,6 +61,11 @@
             <RootNode Id="4f828885-1cb1-4f02-987d-b26db28a6488">
               <Class>
                 <DiagramMoniker Name="/UPM_IPS.DCMLRACPGProyectoIPS/DCMLRACPGProyectoIPSDiagram" />
+              </Class>
+            </RootNode>
+            <RootNode Id="1500e86e-e4e9-4b6c-9d99-55e3ee1efbef">
+              <Class>
+                <CompartmentShapeMoniker Name="/UPM_IPS.DCMLRACPGProyectoIPS/ModelCShape" />
               </Class>
             </RootNode>
           </Roots>
