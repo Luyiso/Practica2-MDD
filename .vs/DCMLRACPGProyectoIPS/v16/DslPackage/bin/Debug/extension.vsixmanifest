@@ -1,0 +1,23 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="864bdef2-a50a-4d37-a1d8-9f2398d80509" Version="1.0.0.0" Language="en-US" Publisher="UPM_IPS" />
+    <DisplayName>DCMLRACPGProyectoIPS</DisplayName>
+    <Description>Description for UPM_IPS.DCMLRACPGProyectoIPS.DCMLRACPGProyectoIPS</Description>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.6,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.16.0" DisplayName="Visual Studio MPF 16.0" Version="[16.0,17.0)" />
+  </Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="UPM_IPS.DCMLRACPGProyectoIPS.DslPackage.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="UPM_IPS.DCMLRACPGProyectoIPS.DslPackage.dll" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="UPM_IPS.DCMLRACPGProyectoIPS.Dsl.dll" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="ItemTemplates" />
+  </Assets>
+</PackageManifest>
